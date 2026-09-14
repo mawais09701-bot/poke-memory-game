@@ -1,16 +1,40 @@
-# React + Vite
+# Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A memory card game built with React, JavaScript, HTML, and CSS.
 
-Currently, two official plugins are available:
+The goal of the game is simple: click on cards to find matching pairs. Try to remember which cards you have already seen and match all the pairs with as few mistakes as possible.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Interactive card flipping
+* Randomly shuffled cards
+* Keeps track of the player's score
+* Prevents cards from being selected incorrectly
+* Responsive layout for different screen sizes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built With
 
-## Expanding the ESLint configuration
+* React
+* JavaScript
+* HTML
+* CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What I Learned
+
+This project gave me more practice with React and helped me understand how to build an interactive application using components and state.
+
+I practiced passing data between components, handling user events, updating the UI when state changes, and working with arrays to manage the cards and game logic.
+
+It was also useful for getting more comfortable with structuring a React project instead of putting all of the logic into one file.
+
+## How to Play
+
+1. Start the game.
+2. Click on a card to reveal it.
+3. Try to remember the cards you have already clicked.
+4. Find all the matching pairs.
+5. Complete the game with the best score you can.
+
+## Project Purpose
+
+I built this project as part of my learning journey with React. The main goal was to practice React fundamentals by building a small interactive game and applying what I have learned to a real project.
